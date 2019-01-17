@@ -8,7 +8,7 @@ import 'ag-grid-enterprise';
 
 import { connect } from 'react-redux';
 import * as actions from './store/actions';
-import uuidv4 from 'uuid';;
+import uuidv4 from 'uuid';
 
 class App extends Component {
 
