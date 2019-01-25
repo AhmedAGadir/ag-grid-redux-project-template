@@ -24,7 +24,7 @@ class App extends Component {
       })
   }
 
-  onGridReady(params) {
+  onGridReady = params => {
     this.gridApi = params.api;
     this.gridColumnApi = params.columnApi;
   }
